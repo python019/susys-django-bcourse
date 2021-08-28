@@ -1,0 +1,1 @@
+# Django SUSYS Beginner Course(2021)
