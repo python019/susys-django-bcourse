@@ -38,7 +38,10 @@
     
   </head>
   <body>
-    
+    {% for post in posts %}
+    <p>{{ post.title }}</p>
+    <p>{{ post.description }}</p>
+    {% endfor%}
 <header>
   <div class="collapse bg-dark" id="navbarHeader">
     <div class="container">
