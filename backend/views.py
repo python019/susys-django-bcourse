@@ -10,4 +10,7 @@ def single(request, slug):
     data = Post.objects.get(slug=slug)
     return render(request, "single.html", {'post': data})
 
+def about(request):
+    return render(request, "about.html", {})
+
 
